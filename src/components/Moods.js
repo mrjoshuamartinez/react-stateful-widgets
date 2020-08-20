@@ -56,7 +56,7 @@ export default function Moods() {
     fontSize: '1.5em',
     marginBottom: '0.3em',
     /* STEP 2 */
-    color: (mood === makeHappy) ? 'royalblue' : 'crimson',
+    color: (mood === happyMood) ? 'royalblue' : 'crimson',
   };
 
   return (
