@@ -55,7 +55,8 @@ export default function Input() {
   const style = {
     fontSize: '1.5em',
     marginBottom: '0.3em',
-    color: 'royalblue', /* STEP 2 */
+    /* STEP 2 */
+    color: (setInputValue.length > 10 ? 'royalblue' : 'crimson'),
   };
 
   return (
