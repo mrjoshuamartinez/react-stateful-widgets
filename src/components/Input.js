@@ -47,6 +47,7 @@ export default function Input() {
     const { value } = evt.target;
 
     /* STEP 4 */
+    setInputValue(value);
   };
   const reset = () => {
     /* STEP 5 */
@@ -57,7 +58,7 @@ export default function Input() {
     fontSize: '1.5em',
     marginBottom: '0.3em',
     /* STEP 2 */
-    color: (setInputValue.length > 10 ? 'royalblue' : 'crimson'),
+    color: (inputValue.length > 10 ? 'royalblue' : 'crimson'),
   };
 
   return (
