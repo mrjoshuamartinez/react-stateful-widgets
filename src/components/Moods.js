@@ -52,7 +52,8 @@ export default function Moods() {
   const style = {
     fontSize: '1.5em',
     marginBottom: '0.3em',
-    color: 'crimson', /* STEP 2 */
+    /* STEP 2 */
+    color: (mood === makeHappy) ? 'royalblue' : 'crimson',
   };
 
   return (
